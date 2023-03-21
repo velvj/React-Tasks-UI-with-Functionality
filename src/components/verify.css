@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.every {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.lab {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: 10px;
+}
+
+.hhead {
+  position: relative;
+  left: 115px;
+  top: -15px;
+  width: 322px;
+  height: 28px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.reg {
+  position: relative;
+  left: 35px;
+  width: 322px;
+  height: 28px;
+}
+
+.otpInput {
+  padding: 9px 13px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: #ffffff;
+
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.sign {
+  position: relative;
+  min-width: 340px;
+  height: 38px;
+  padding: 9px 17px;
+  background: #0073da;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dotDesign {
+  position: absolute;
+  width: 350px;
+  height: 270px;
+  bottom: 0;
+  right: 0;
+}
+
+.socialApp {
+  padding: 0px;
+  position: absolute;
+  width: auto;
+  height: 70px;
+  left: 604px;
+  top: 600px;
+}
+
+.top-R {
+  float: right;
+  width: 145px;
+}
+.bottomr {
+  position: absolute;
+  width: 203px;
+  height: 210px;
+  bottom: 0;
+}
+
+.bg-logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.db-name {
+  padding-bottom: 30px;
+  width: 380px;
+  height: 100px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  color: black;
+}
+
+input:focus::placeholder {
+  color: #000;
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 680px) {
+  .every {
+    background: green;
+  }
+
+  .socialApp {
+    padding: 0px;
+    position: absolute;
+    width: auto;
+    height: 30px;
+    left: 304px;
+    top: 300px;
+    overflow: hidden;
+  }
+
+  .dotDesign {
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .bg-logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  .db-name {
+    padding-bottom: 15px;
+    width: 200px;
+    height: 40px;
+  }
+
+  .top-R {
+    margin-left: 480px;
+    width: 60px;
+  }
+  .bottomr {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    bottom: 0;
+  }
+} */
+
+.aMsg {
+  color: red;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+}

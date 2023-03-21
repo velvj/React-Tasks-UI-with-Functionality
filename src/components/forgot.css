@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.every {
+  display: flex;
+  width: 100% auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.dotDesign {
+  position: absolute;
+  width: 350px;
+  height: 270px;
+  bottom: 0;
+  right: 0;
+}
+
+.socialApp {
+  padding: 0px;
+  position: absolute;
+  height: 90px;
+  width: auto;
+  left: 554px;
+  top: 600px;
+}
+
+.top-R {
+  float: right;
+  width: 145px;
+}
+.bottomr {
+  width: 203px;
+  height: 210px;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.db-name {
+  padding-bottom: 30px;
+  width: 300px;
+  height: 100px;
+}
+input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 9px 13px;
+  isolation: isolate;
+
+  width: 368px;
+  height: 42px;
+
+  /* white */
+
+  background: #ffffff;
+  /* gray/300 */
+
+  border: 1px solid #d1d5db;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  background: white;
+  color: #000;
+}
+
+input:focus::placeholder {
+  color: #000;
+}
+
+#back {
+  position: relative;
+  padding: 9px 17px;
+  width: 170.5px;
+  height: 32px;
+  background: #dbeafe;
+  border-radius: 6px;
+}
+
+#otp {
+  position: relative;
+  padding: 9px 17px;
+  color: #d1d5db;
+  width: 170.5px;
+  height: 32px;
+
+  background: #0073da;
+
+  border-radius: 6px;
+}
+
+button {
+  margin: 0 7px;
+}
+
+.your {
+  position: relative;
+  left: 50px;
+  top: -15px;
+  width: 322px;
+  height: 28px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.eMsg {
+  color: red;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+}

@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.formdata {
+  border: none;
+  margin: 10px 5px;
+  padding: 30px 30px;
+}
+
+.dotDesign {
+  position: absolute;
+  width: 350px;
+  height: 270px;
+  bottom: 0;
+  right: 0;
+  }
+
+  .socialApp {
+    padding: 0px;
+    position: absolute;
+    height: 90px;
+    left: 634px;
+    top: 600px;
+
+  }
+  
+  .top-R {
+    float: right;
+    width: 145px;
+  }
+  .bottomr {
+    position: absolute;
+    width: 203px;
+    height: 210px;
+  }
+  
+  .bg-logo {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  .db-name {
+    padding-bottom: 30px;
+    width: 300px;
+    height: 100px;
+  }
+  .sign {
+    position: absolute;
+    width: 305.5px;
+    height: 32px;
+    color: white;
+    padding: 9px 17px;
+    /* background: #0073DA; */
+    border-radius: 6px;
+}
+
+.login {
+  position: relative;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 38px;
+margin: -20px 140px;
+}
+
+input{
+width: 308px;
+height: 32px;
+background: #FFFFFF;
+border: 1px solid #D1D5DB;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+input::placeholder{
+color: white;
+}
+
+input:focus{
+    background: white;
+    color: #000;;
+}
+ 
+input:focus::placeholder{
+    color: #000;
+}
+
+.pics{
+  position: absolute;
+  width: 600px;
+  right: 0;
+
+}
+.navLink{
+  position: absolute;
+  color :#0073DA;
+  margin: 10px;
+}
+
+
+.logMsg{
+  background-color: #dff0d8;
+  padding: 15px;
+  border-radius: 5px;
+  color: #3c763d;
+  margin-bottom: 5px;
+  border: 1px solid #d6e9c6;
+  font-family: sans-serif;
+}
